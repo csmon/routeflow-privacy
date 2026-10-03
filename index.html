@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>RouteFlow Privacy Policy</title>
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    body {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { margin-bottom: 0.25rem; }
+    .meta { opacity: 0.75; margin-top: 0; }
+    nav {
+      margin: 1.5rem 0 2rem;
+      padding: 0.8rem 1rem;
+      border: 1px solid currentColor;
+      border-radius: 10px;
+    }
+    nav a { margin-right: 1rem; }
+    section { margin-top: 2rem; }
+    code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    footer { margin-top: 3rem; opacity: 0.75; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>RouteFlow Privacy Policy</h1>
+    <p class="meta">Last updated: October 3, 2026</p>
+
+    <nav>
+      <a href="#english">English</a>
+      <a href="#zh-tw">繁體中文</a>
+    </nav>
+
+    <section id="english" lang="en">
+      <h2>English</h2>
+
+      <h3>1. Overview</h3>
+      <p>
+        RouteFlow is an Android app for simulating a fixed location or movement along a route for
+        development, testing, demonstrations, and personal location simulation. While mock location
+        is active, other apps on the device that use location may receive the simulated location.
+      </p>
+      <p>
+        RouteFlow does not require a RouteFlow account and does not operate a RouteFlow-owned backend
+        for storing user routes or location history.
+      </p>
+
+      <h3>2. Information stored on your device</h3>
+      <p>RouteFlow may store the following information locally on the device:</p>
+      <ul>
+        <li>Favorite places, including names, optional addresses, coordinates, and timestamps.</li>
+        <li>Favorite routes, including names, route points, coordinates, route settings, and timestamps.</li>
+        <li>App settings such as language, appearance, speed settings, update interval, and map preferences.</li>
+        <li>A small recent-place history for items you explicitly select.</li>
+        <li>Temporary map, route-editing, selection, and simulation state used to restore the current app experience.</li>
+      </ul>
+      <p>
+        RouteFlow does not upload these saved places, routes, or app settings to a RouteFlow-owned server.
+        Android backup may retain or restore app data depending on your device and Google account backup settings.
+      </p>
+
+      <h3>3. Location and mock-location data</h3>
+      <p>
+        If you grant location permission, RouteFlow can read the device's location for features such as
+        choosing the current location as a route point or showing the device's location on the map.
+      </p>
+      <p>
+        RouteFlow can also provide simulated location data through Android mock-location mechanisms and
+        Google Play services location APIs. Simulated routes and coordinates are processed on the device
+        and are not uploaded to a RouteFlow-owned server.
+      </p>
+
+      <h3>4. Advertising and consent</h3>
+      <p>
+        Ad-supported versions of RouteFlow may use Google Mobile Ads to display banner, interstitial,
+        and app-open advertisements. Google and its advertising partners may process information such as
+        device and network information, advertising identifiers when available, ad interactions, and
+        diagnostics in accordance with their own policies.
+      </p>
+      <p>
+        RouteFlow uses Google's User Messaging Platform (UMP) to request and manage privacy choices where
+        required. RouteFlow relies on UMP's current permission state before requesting ads and does not
+        store consent strings as its own authoritative record.
+      </p>
+      <p>
+        Where required, RouteFlow provides an <strong>Ad privacy choices</strong> / <strong>廣告隱私設定</strong>
+        entry in Settings so users can review or change available privacy choices.
+      </p>
+      <p>
+        Rejecting personalized advertising does not necessarily mean that no ads will be shown. Depending
+        on applicable law, consent choices, and Google's serving rules, non-personalized or limited ads may
+        still be available.
+      </p>
+
+      <h3>5. Maps, search, and network services</h3>
+      <p>
+        RouteFlow uses MapLibre Native for map rendering and currently uses OpenFreeMap-hosted map resources.
+        Loading map tiles, styles, fonts, or other map resources can cause the relevant provider to receive
+        standard network information such as IP address, request metadata, and requests corresponding to
+        the map area being viewed.
+      </p>
+      <p>
+        Offline country and city search uses bundled GeoNames-derived data and is processed on the device.
+        RouteFlow may also offer an explicit external web search for coordinates. If you choose that action,
+        the search terms are sent to the browser or search provider you select, under that provider's own
+        privacy policy.
+      </p>
+      <p>
+        Development or internal builds may contain additional test-only services or diagnostics that are
+        not part of the public production app.
+      </p>
+
+      <h3>6. Third-party services</h3>
+      <p>RouteFlow may use or interact with the following third-party services and libraries:</p>
+      <ul>
+        <li>Google User Messaging Platform (UMP) for consent and privacy-choice management.</li>
+        <li>Google Mobile Ads / Google Play services for advertising in ad-supported builds.</li>
+        <li>Google Play services Location for device location and mock-location integration.</li>
+        <li>MapLibre Native for map rendering.</li>
+        <li>OpenFreeMap for hosted map styles and resources.</li>
+        <li>OpenStreetMap and related open map-data sources used by the active map style.</li>
+        <li>GeoNames-derived data for offline country/city search.</li>
+        <li>Your chosen browser or web-search provider when you explicitly launch an external coordinate search.</li>
+      </ul>
+      <p>
+        These third parties process information under their own terms and privacy policies. Google's privacy
+        policy is available at
+        <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
+      </p>
+
+      <h3>7. Analytics and crash reporting</h3>
+      <p>
+        RouteFlow does not currently use a RouteFlow-operated analytics service or an uploaded crash-reporting
+        service in the public app. If this changes, this policy will be updated before or with the relevant release.
+      </p>
+
+      <h3>8. Data deletion and retention</h3>
+      <p>
+        You can delete saved favorites from within RouteFlow. Uninstalling RouteFlow normally removes its
+        app-private local database, preferences, and files from the device. Copies managed by Android or a
+        device/account backup service may be retained or restored according to that service's settings and policies.
+      </p>
+
+      <h3>9. Changes to this policy</h3>
+      <p>
+        This policy may be updated when RouteFlow changes its storage, permissions, map providers, networking,
+        advertising, billing, analytics, or other data practices. The "Last updated" date above will be revised
+        when material changes are published.
+      </p>
+
+      <h3>10. Contact</h3>
+      <p>
+        For privacy questions about RouteFlow, you may open an issue in the public policy repository:
+        <a href="https://github.com/csmon/routeflow-privacy/issues">github.com/csmon/routeflow-privacy/issues</a>.
+      </p>
+    </section>
+
+    <section id="zh-tw" lang="zh-Hant-TW">
+      <h2>繁體中文（台灣）</h2>
+
+      <h3>1. 概要</h3>
+      <p>
+        RouteFlow 是 Android 模擬定位應用程式，可用於模擬單點位置或沿路線移動，適合應用程式開發、
+        測試、展示及個人位置模擬。啟用模擬定位時，裝置上使用位置資訊的其他應用程式可能收到模擬位置。
+      </p>
+      <p>
+        RouteFlow 不需要 RouteFlow 帳號，也沒有由 RouteFlow 經營、用來保存使用者路線或位置歷史的後端伺服器。
+      </p>
+
+      <h3>2. 儲存在裝置上的資訊</h3>
+      <p>RouteFlow 可能在裝置本機保存：</p>
+      <ul>
+        <li>收藏地點，包括名稱、選填地址、座標與時間資訊。</li>
+        <li>收藏路線，包括名稱、路線點、座標、路線設定與時間資訊。</li>
+        <li>應用程式設定，例如語言、外觀、速度、更新間隔與地圖偏好。</li>
+        <li>少量由使用者明確選取所形成的最近地點紀錄。</li>
+        <li>用於恢復目前操作體驗的暫時地圖、路線編輯、選取及模擬狀態。</li>
+      </ul>
+      <p>
+        RouteFlow 不會把上述收藏、路線或 App 設定上傳至 RouteFlow 自有伺服器。
+        Android 備份功能可能依裝置及 Google 帳號的備份設定保留或還原應用程式資料。
+      </p>
+
+      <h3>3. 位置與模擬定位資料</h3>
+      <p>
+        若你授予位置權限，RouteFlow 可讀取裝置位置，例如將目前位置設為路線點，或在地圖上顯示裝置位置。
+      </p>
+      <p>
+        RouteFlow 亦可透過 Android 模擬定位機制及 Google Play services 位置 API 提供模擬位置。
+        模擬路線與座標在裝置上處理，不會上傳至 RouteFlow 自有伺服器。
+      </p>
+
+      <h3>4. 廣告與同意管理</h3>
+      <p>
+        含廣告的 RouteFlow 版本可能使用 Google Mobile Ads 顯示橫幅、插頁及 App Open 廣告。
+        Google 與其廣告合作夥伴可能依其政策處理裝置與網路資訊、可用的廣告識別碼、
+        廣告互動資訊及診斷資料。
+      </p>
+      <p>
+        RouteFlow 使用 Google User Messaging Platform（UMP），在適用地區取得及管理隱私選擇。
+        RouteFlow 會依 UMP 當下提供的允許狀態決定是否提出廣告請求，不會自行把 consent 字串保存為權威紀錄。
+      </p>
+      <p>
+        在適用情況下，RouteFlow 的設定頁會提供 <strong>「廣告隱私設定」</strong> /
+        <strong>“Ad privacy choices”</strong>，讓使用者檢視或修改可用的隱私選擇。
+      </p>
+      <p>
+        拒絕個人化廣告不一定表示完全不會顯示廣告。依適用法規、使用者選擇及 Google 的廣告提供規則，
+        仍可能提供非個人化或受限廣告。
+      </p>
+
+      <h3>5. 地圖、搜尋與網路服務</h3>
+      <p>
+        RouteFlow 使用 MapLibre Native 繪製地圖，目前使用 OpenFreeMap 提供的地圖資源。
+        載入地圖圖磚、樣式、字型或其他資源時，相關供應商可能收到一般網路資訊，例如 IP 位址、
+        請求中附帶的資訊，以及對應使用者所瀏覽地圖區域的請求。
+      </p>
+      <p>
+        離線國家／城市搜尋使用內建的 GeoNames 衍生資料，並在裝置上完成。
+        RouteFlow 也可能提供明確的外部網頁座標搜尋動作；只有在你主動選擇時，
+        查詢內容才會交給你所使用的瀏覽器或搜尋服務，並依該服務的隱私政策處理。
+      </p>
+      <p>
+        開發或 Internal 版本可能包含額外的測試服務或診斷功能，這些功能不屬於公開正式版的一部分。
+      </p>
+
+      <h3>6. 第三方服務</h3>
+      <p>RouteFlow 可能使用或與以下第三方服務／函式庫互動：</p>
+      <ul>
+        <li>Google User Messaging Platform（UMP）：同意與隱私選擇管理。</li>
+        <li>Google Mobile Ads / Google Play services：在含廣告版本中提供廣告。</li>
+        <li>Google Play services Location：裝置位置與模擬定位整合。</li>
+        <li>MapLibre Native：地圖繪製。</li>
+        <li>OpenFreeMap：託管地圖樣式與資源。</li>
+        <li>OpenStreetMap 及目前地圖樣式所使用的相關開放地圖資料來源。</li>
+        <li>GeoNames 衍生資料：離線國家／城市搜尋。</li>
+        <li>當你明確啟動外部座標搜尋時所選擇的瀏覽器或網頁搜尋服務。</li>
+      </ul>
+      <p>
+        上述第三方依其各自條款與隱私政策處理資訊。Google 隱私權政策：
+        <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>。
+      </p>
+
+      <h3>7. 分析與當機回報</h3>
+      <p>
+        RouteFlow 公開版本目前未使用由 RouteFlow 經營的分析服務，也沒有啟用會上傳資料的當機回報服務。
+        若未來改變，會在相關版本發布前或同步更新本政策。
+      </p>
+
+      <h3>8. 資料刪除與保留</h3>
+      <p>
+        你可以在 RouteFlow 內刪除已保存的收藏。解除安裝 RouteFlow 通常會移除裝置上的 App 私有資料庫、
+        偏好設定及檔案。Android 或裝置／帳號備份服務所管理的副本，可能依該服務的設定與政策繼續保留或還原。
+      </p>
+
+      <h3>9. 本政策的變更</h3>
+      <p>
+        RouteFlow 若變更資料儲存、權限、地圖供應商、網路、廣告、付費、分析或其他資料處理方式，
+        本政策可能同步更新。若有重大更新，上方「最後更新日期」也會一併調整。
+      </p>
+
+      <h3>10. 聯絡方式</h3>
+      <p>
+        如有 RouteFlow 隱私相關問題，可在公開政策 repository 提出 issue：
+        <a href="https://github.com/csmon/routeflow-privacy/issues">github.com/csmon/routeflow-privacy/issues</a>。
+      </p>
+    </section>
+
+    <footer>
+      <p>This page intentionally uses no analytics, advertising scripts, or consent-dependent scripts.</p>
+    </footer>
+  </main>
+</body>
+</html>
